@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5126D0F195BC70100EAD33A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5126D0E195BC70100EAD33A /* MainViewController.swift */; };
+		B5126D18195BCBA700EAD33A /* MusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5126D17195BCBA700EAD33A /* MusicPlayer.swift */; };
+		B53F98EF195AE78300E2031E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53F98EE195AE78300E2031E /* AppDelegate.swift */; };
+		B53F98F1195AE78300E2031E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B53F98F0195AE78300E2031E /* Images.xcassets */; };
+		B53F98FD195AE78300E2031E /* PlayingSongsWithLRCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53F98FC195AE78300E2031E /* PlayingSongsWithLRCTests.swift */; };
+		B53F990D195AFF1E00E2031E /* 情非得已.lrc in Resources */ = {isa = PBXBuildFile; fileRef = B53F9907195AFF1E00E2031E /* 情非得已.lrc */; };
+		B53F990E195AFF1E00E2031E /* 情非得已.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B53F9908195AFF1E00E2031E /* 情非得已.mp3 */; };
+		B53F990F195AFF1E00E2031E /* 林俊杰-背对背拥抱.lrc in Resources */ = {isa = PBXBuildFile; fileRef = B53F9909195AFF1E00E2031E /* 林俊杰-背对背拥抱.lrc */; };
+		B53F9910195AFF1E00E2031E /* 林俊杰-背对背拥抱.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B53F990A195AFF1E00E2031E /* 林俊杰-背对背拥抱.mp3 */; };
+		B53F9911195AFF1E00E2031E /* 梁静茹-偶阵雨.lrc in Resources */ = {isa = PBXBuildFile; fileRef = B53F990B195AFF1E00E2031E /* 梁静茹-偶阵雨.lrc */; };
+		B53F9912195AFF1E00E2031E /* 梁静茹-偶阵雨.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B53F990C195AFF1E00E2031E /* 梁静茹-偶阵雨.mp3 */; };
+		B53F9920195AFF3000E2031E /* aboveMusic.png in Resources */ = {isa = PBXBuildFile; fileRef = B53F9914195AFF3000E2031E /* aboveMusic.png */; };
+		B53F9921195AFF3000E2031E /* backgroundImage5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B53F9915195AFF3000E2031E /* backgroundImage5.jpg */; };
+		B53F9922195AFF3000E2031E /* circleClose.png in Resources */ = {isa = PBXBuildFile; fileRef = B53F9916195AFF3000E2031E /* circleClose.png */; };
+		B53F9923195AFF3000E2031E /* circleOpen.png in Resources */ = {isa = PBXBuildFile; fileRef = B53F9917195AFF3000E2031E /* circleOpen.png */; };
+		B53F9924195AFF3000E2031E /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = B53F9918195AFF3000E2031E /* menu.png */; };
+		B53F9925195AFF3000E2031E /* nextMusic.png in Resources */ = {isa = PBXBuildFile; fileRef = B53F9919195AFF3000E2031E /* nextMusic.png */; };
+		B53F9926195AFF3000E2031E /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = B53F991A195AFF3000E2031E /* pause.png */; };
+		B53F9927195AFF3000E2031E /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = B53F991B195AFF3000E2031E /* play.png */; };
+		B53F9928195AFF3000E2031E /* randomClose.png in Resources */ = {isa = PBXBuildFile; fileRef = B53F991C195AFF3000E2031E /* randomClose.png */; };
+		B53F9929195AFF3000E2031E /* randomOpen.png in Resources */ = {isa = PBXBuildFile; fileRef = B53F991D195AFF3000E2031E /* randomOpen.png */; };
+		B53F992A195AFF3000E2031E /* sliderThumb_small.png in Resources */ = {isa = PBXBuildFile; fileRef = B53F991E195AFF3000E2031E /* sliderThumb_small.png */; };
+		B53F992B195AFF3000E2031E /* soundSlider.png in Resources */ = {isa = PBXBuildFile; fileRef = B53F991F195AFF3000E2031E /* soundSlider.png */; };
+		B53F992D195B00CE00E2031E /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53F992C195B00CE00E2031E /* Song.swift */; };
+		B548E54C195D5C2600FF5FD0 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B548E54B195D5C2600FF5FD0 /* PlayerView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B53F98F7195AE78300E2031E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B53F98E1195AE78300E2031E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B53F98E8195AE78300E2031E;
+			remoteInfo = PlayingSongsWithLRC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B5126D0E195BC70100EAD33A /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		B5126D17195BCBA700EAD33A /* MusicPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicPlayer.swift; sourceTree = "<group>"; };
+		B53F98E9195AE78300E2031E /* PlayingSongsWithLRC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayingSongsWithLRC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B53F98ED195AE78300E2031E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B53F98EE195AE78300E2031E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B53F98F0195AE78300E2031E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B53F98F6195AE78300E2031E /* PlayingSongsWithLRCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayingSongsWithLRCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B53F98FB195AE78300E2031E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B53F98FC195AE78300E2031E /* PlayingSongsWithLRCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingSongsWithLRCTests.swift; sourceTree = "<group>"; };
+		B53F9907195AFF1E00E2031E /* 情非得已.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "情非得已.lrc"; sourceTree = "<group>"; };
+		B53F9908195AFF1E00E2031E /* 情非得已.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "情非得已.mp3"; sourceTree = "<group>"; };
+		B53F9909195AFF1E00E2031E /* 林俊杰-背对背拥抱.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "林俊杰-背对背拥抱.lrc"; sourceTree = "<group>"; };
+		B53F990A195AFF1E00E2031E /* 林俊杰-背对背拥抱.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "林俊杰-背对背拥抱.mp3"; sourceTree = "<group>"; };
+		B53F990B195AFF1E00E2031E /* 梁静茹-偶阵雨.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "梁静茹-偶阵雨.lrc"; sourceTree = "<group>"; };
+		B53F990C195AFF1E00E2031E /* 梁静茹-偶阵雨.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "梁静茹-偶阵雨.mp3"; sourceTree = "<group>"; };
+		B53F9914195AFF3000E2031E /* aboveMusic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aboveMusic.png; sourceTree = "<group>"; };
+		B53F9915195AFF3000E2031E /* backgroundImage5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroundImage5.jpg; sourceTree = "<group>"; };
+		B53F9916195AFF3000E2031E /* circleClose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circleClose.png; sourceTree = "<group>"; };
+		B53F9917195AFF3000E2031E /* circleOpen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circleOpen.png; sourceTree = "<group>"; };
+		B53F9918195AFF3000E2031E /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		B53F9919195AFF3000E2031E /* nextMusic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nextMusic.png; sourceTree = "<group>"; };
+		B53F991A195AFF3000E2031E /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		B53F991B195AFF3000E2031E /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		B53F991C195AFF3000E2031E /* randomClose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = randomClose.png; sourceTree = "<group>"; };
+		B53F991D195AFF3000E2031E /* randomOpen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = randomOpen.png; sourceTree = "<group>"; };
+		B53F991E195AFF3000E2031E /* sliderThumb_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sliderThumb_small.png; sourceTree = "<group>"; };
+		B53F991F195AFF3000E2031E /* soundSlider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = soundSlider.png; sourceTree = "<group>"; };
+		B53F992C195B00CE00E2031E /* Song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		B548E54B195D5C2600FF5FD0 /* PlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B53F98E6195AE78300E2031E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B53F98F3195AE78300E2031E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B53F98E0195AE78300E2031E = {
+			isa = PBXGroup;
+			children = (
+				B53F9913195AFF3000E2031E /* image */,
+				B53F9906195AFF1E00E2031E /* Songs */,
+				B53F98EB195AE78300E2031E /* PlayingSongsWithLRC */,
+				B53F98F9195AE78300E2031E /* PlayingSongsWithLRCTests */,
+				B53F98EA195AE78300E2031E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B53F98EA195AE78300E2031E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B53F98E9195AE78300E2031E /* PlayingSongsWithLRC.app */,
+				B53F98F6195AE78300E2031E /* PlayingSongsWithLRCTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B53F98EB195AE78300E2031E /* PlayingSongsWithLRC */ = {
+			isa = PBXGroup;
+			children = (
+				B548E54B195D5C2600FF5FD0 /* PlayerView.swift */,
+				B5126D0E195BC70100EAD33A /* MainViewController.swift */,
+				B53F98EE195AE78300E2031E /* AppDelegate.swift */,
+				B53F992C195B00CE00E2031E /* Song.swift */,
+				B5126D17195BCBA700EAD33A /* MusicPlayer.swift */,
+				B53F98F0195AE78300E2031E /* Images.xcassets */,
+				B53F98EC195AE78300E2031E /* Supporting Files */,
+			);
+			path = PlayingSongsWithLRC;
+			sourceTree = "<group>";
+		};
+		B53F98EC195AE78300E2031E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B53F98ED195AE78300E2031E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B53F98F9195AE78300E2031E /* PlayingSongsWithLRCTests */ = {
+			isa = PBXGroup;
+			children = (
+				B53F98FC195AE78300E2031E /* PlayingSongsWithLRCTests.swift */,
+				B53F98FA195AE78300E2031E /* Supporting Files */,
+			);
+			path = PlayingSongsWithLRCTests;
+			sourceTree = "<group>";
+		};
+		B53F98FA195AE78300E2031E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B53F98FB195AE78300E2031E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B53F9906195AFF1E00E2031E /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				B53F9907195AFF1E00E2031E /* 情非得已.lrc */,
+				B53F9908195AFF1E00E2031E /* 情非得已.mp3 */,
+				B53F9909195AFF1E00E2031E /* 林俊杰-背对背拥抱.lrc */,
+				B53F990A195AFF1E00E2031E /* 林俊杰-背对背拥抱.mp3 */,
+				B53F990B195AFF1E00E2031E /* 梁静茹-偶阵雨.lrc */,
+				B53F990C195AFF1E00E2031E /* 梁静茹-偶阵雨.mp3 */,
+			);
+			path = Songs;
+			sourceTree = "<group>";
+		};
+		B53F9913195AFF3000E2031E /* image */ = {
+			isa = PBXGroup;
+			children = (
+				B53F9914195AFF3000E2031E /* aboveMusic.png */,
+				B53F9915195AFF3000E2031E /* backgroundImage5.jpg */,
+				B53F9916195AFF3000E2031E /* circleClose.png */,
+				B53F9917195AFF3000E2031E /* circleOpen.png */,
+				B53F9918195AFF3000E2031E /* menu.png */,
+				B53F9919195AFF3000E2031E /* nextMusic.png */,
+				B53F991A195AFF3000E2031E /* pause.png */,
+				B53F991B195AFF3000E2031E /* play.png */,
+				B53F991C195AFF3000E2031E /* randomClose.png */,
+				B53F991D195AFF3000E2031E /* randomOpen.png */,
+				B53F991E195AFF3000E2031E /* sliderThumb_small.png */,
+				B53F991F195AFF3000E2031E /* soundSlider.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B53F98E8195AE78300E2031E /* PlayingSongsWithLRC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B53F9900195AE78300E2031E /* Build configuration list for PBXNativeTarget "PlayingSongsWithLRC" */;
+			buildPhases = (
+				B53F98E5195AE78300E2031E /* Sources */,
+				B53F98E6195AE78300E2031E /* Frameworks */,
+				B53F98E7195AE78300E2031E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlayingSongsWithLRC;
+			productName = PlayingSongsWithLRC;
+			productReference = B53F98E9195AE78300E2031E /* PlayingSongsWithLRC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B53F98F5195AE78300E2031E /* PlayingSongsWithLRCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B53F9903195AE78300E2031E /* Build configuration list for PBXNativeTarget "PlayingSongsWithLRCTests" */;
+			buildPhases = (
+				B53F98F2195AE78300E2031E /* Sources */,
+				B53F98F3195AE78300E2031E /* Frameworks */,
+				B53F98F4195AE78300E2031E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B53F98F8195AE78300E2031E /* PBXTargetDependency */,
+			);
+			name = PlayingSongsWithLRCTests;
+			productName = PlayingSongsWithLRCTests;
+			productReference = B53F98F6195AE78300E2031E /* PlayingSongsWithLRCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B53F98E1195AE78300E2031E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = variadic;
+				TargetAttributes = {
+					B53F98E8195AE78300E2031E = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					B53F98F5195AE78300E2031E = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = B53F98E8195AE78300E2031E;
+					};
+				};
+			};
+			buildConfigurationList = B53F98E4195AE78300E2031E /* Build configuration list for PBXProject "PlayingSongsWithLRC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B53F98E0195AE78300E2031E;
+			productRefGroup = B53F98EA195AE78300E2031E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B53F98E8195AE78300E2031E /* PlayingSongsWithLRC */,
+				B53F98F5195AE78300E2031E /* PlayingSongsWithLRCTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B53F98E7195AE78300E2031E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B53F9923195AFF3000E2031E /* circleOpen.png in Resources */,
+				B53F992A195AFF3000E2031E /* sliderThumb_small.png in Resources */,
+				B53F9921195AFF3000E2031E /* backgroundImage5.jpg in Resources */,
+				B53F98F1195AE78300E2031E /* Images.xcassets in Resources */,
+				B53F9925195AFF3000E2031E /* nextMusic.png in Resources */,
+				B53F9929195AFF3000E2031E /* randomOpen.png in Resources */,
+				B53F990F195AFF1E00E2031E /* 林俊杰-背对背拥抱.lrc in Resources */,
+				B53F992B195AFF3000E2031E /* soundSlider.png in Resources */,
+				B53F9912195AFF1E00E2031E /* 梁静茹-偶阵雨.mp3 in Resources */,
+				B53F990E195AFF1E00E2031E /* 情非得已.mp3 in Resources */,
+				B53F9910195AFF1E00E2031E /* 林俊杰-背对背拥抱.mp3 in Resources */,
+				B53F9922195AFF3000E2031E /* circleClose.png in Resources */,
+				B53F9928195AFF3000E2031E /* randomClose.png in Resources */,
+				B53F9924195AFF3000E2031E /* menu.png in Resources */,
+				B53F9926195AFF3000E2031E /* pause.png in Resources */,
+				B53F9927195AFF3000E2031E /* play.png in Resources */,
+				B53F990D195AFF1E00E2031E /* 情非得已.lrc in Resources */,
+				B53F9911195AFF1E00E2031E /* 梁静茹-偶阵雨.lrc in Resources */,
+				B53F9920195AFF3000E2031E /* aboveMusic.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B53F98F4195AE78300E2031E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B53F98E5195AE78300E2031E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5126D0F195BC70100EAD33A /* MainViewController.swift in Sources */,
+				B53F992D195B00CE00E2031E /* Song.swift in Sources */,
+				B548E54C195D5C2600FF5FD0 /* PlayerView.swift in Sources */,
+				B5126D18195BCBA700EAD33A /* MusicPlayer.swift in Sources */,
+				B53F98EF195AE78300E2031E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B53F98F2195AE78300E2031E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B53F98FD195AE78300E2031E /* PlayingSongsWithLRCTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B53F98F8195AE78300E2031E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B53F98E8195AE78300E2031E /* PlayingSongsWithLRC */;
+			targetProxy = B53F98F7195AE78300E2031E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B53F98FE195AE78300E2031E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B53F98FF195AE78300E2031E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B53F9901195AE78300E2031E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = PlayingSongsWithLRC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+			};
+			name = Debug;
+		};
+		B53F9902195AE78300E2031E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = PlayingSongsWithLRC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+			};
+			name = Release;
+		};
+		B53F9904195AE78300E2031E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PlayingSongsWithLRC.app/PlayingSongsWithLRC";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PlayingSongsWithLRCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		B53F9905195AE78300E2031E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PlayingSongsWithLRC.app/PlayingSongsWithLRC";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PlayingSongsWithLRCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B53F98E4195AE78300E2031E /* Build configuration list for PBXProject "PlayingSongsWithLRC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B53F98FE195AE78300E2031E /* Debug */,
+				B53F98FF195AE78300E2031E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B53F9900195AE78300E2031E /* Build configuration list for PBXNativeTarget "PlayingSongsWithLRC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B53F9901195AE78300E2031E /* Debug */,
+				B53F9902195AE78300E2031E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B53F9903195AE78300E2031E /* Build configuration list for PBXNativeTarget "PlayingSongsWithLRCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B53F9904195AE78300E2031E /* Debug */,
+				B53F9905195AE78300E2031E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B53F98E1195AE78300E2031E /* Project object */;
+}
